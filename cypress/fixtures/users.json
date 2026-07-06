@@ -1,0 +1,32 @@
+[
+  {
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "expectResult": "success",
+    "expectUrl": "/inventory.html"
+  },
+  {
+    "username": "locked_out_user",
+    "password": "secret_sauce",
+    "expectResult": "blocked",
+    "expectUrl": "/"
+  },
+  {
+    "username": "problem_user",
+    "password": "secret_sauce",
+    "expectResult": "success",
+    "expectUrl": "/inventory.html"
+  },
+  {
+    "username": "performance_glitch_user",
+    "password": "secret_sauce",
+    "expectResult": "success",
+    "expectUrl": "/inventory.html"
+  },
+  {
+    "username": "wrong_user",
+    "password": "wrong_password",
+    "expectResult": "error",
+    "expectUrl": "/"
+  }
+]

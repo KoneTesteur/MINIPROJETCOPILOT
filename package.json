@@ -1,0 +1,13 @@
+{
+  "name": "mini-projet-cypress-saucedemo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^15.18.0"
+  }
+}
