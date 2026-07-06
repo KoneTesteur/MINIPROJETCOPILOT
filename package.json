@@ -5,7 +5,10 @@
   "scripts": {
     "cypress:open": "cypress open",
     "test:open": "cypress open",
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run",
+    "check:data-test": "node scripts/check-data-test.js",
+    "check:secrets": "node scripts/check-fixtures-secrets.js",
+    "check:all": "npm run check:data-test && npm run check:secrets"
   },
   "devDependencies": {
     "cypress": "^15.18.0"
